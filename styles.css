@@ -1,0 +1,375 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+.workshop{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo{
+    width: 23%;
+    height: 45%;
+    background-image: url(images/logo.png);
+    background-size: 100% 100%;
+}
+.nav ul{
+    display: flex;
+    width: 70%;
+    height: 45;
+    list-style: none;
+}
+.nav ul li{
+    font-size: 25px;
+    margin-left: 5%;
+}
+.nav ul li i{
+    padding: 8px;
+    background-color:#51cdf0;
+    transition: 2s;
+}
+.nav ul li i:hover{
+    background-color:#2ea7c9; 
+    border-radius: 20px;
+    transition: 2s;
+}
+.nav2{
+    width: 100%;
+    height: 60px;
+    background-color:#51cdf0;
+    justify-content: space-between;
+    align-items: center;
+    
+    display: flex;
+    
+}
+.nav2 ul{
+    display:flex;
+    width:70%;
+    list-style: none;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.nav2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+
+.nav2 ul li {
+    padding: 18px 18px;
+    font-size: 15px;
+}
+.nav2 ul li:hover {
+    background-color: teal;
+    padding: 18px 18px;
+    font-size: 15px;
+    box-shadow: 5px 5px white;
+}
+
+.search{
+    width: 20%;
+    height: 40px;
+    background-color:white;
+    margin-left: 50px;
+    border-radius: 20px;
+    position: relative;
+    padding-left: 8px;
+
+}
+.search p{
+    color: grey;
+
+}
+.search p .fas{
+    position: absolute;
+    right:18px;
+}
+.section{
+    width: 100%;
+    height: 690px;
+    background-image: url(images/slider-bg.png) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section h1{
+    position: absolute;
+    animation: text 2s steps(33) infinite alternate;
+    overflow:hidden;
+    white-space: nowrap;
+}
+@keyframes text{
+    from{
+        width: 0ch;
+    }
+    to{
+        width: 33ch;
+    }
+}
+.icon{
+    width: 130px;
+    height: 130px;
+    padding: 15px;
+    border:2px solid teal;
+    background-color: white;
+    border-radius: 150px;
+   margin-left: 45%;
+   margin-top: 4%;
+}
+.section h1{
+    margin-left: 28%;
+}
+.parts{
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+}
+.part1{
+    width: 33.5%;
+    height: 300px;
+    background-color: #74b9ff;
+    text-align: center;
+    color: white;
+    line-height: 2px;
+}
+.phone{
+    width:80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.add{
+    height: 370px;
+    background-color: #0984e3;
+}
+.dotted{
+    width:55%;
+    height: 20px;
+    border-bottom: 1px dotted white;
+    margin-top: 27px;
+    margin-left: 80px;
+}
+.section-2{
+    width:90%;
+    height:520px;
+    display: flex;
+    margin-top: 170px;
+    flex-direction: column;
+    border-bottom: 1px dotted grey;
+    margin-left: 5%;
+}
+.section2-img{
+    width:80px;
+    height: 80px;
+    margin-left: 45%;
+    margin-top: 5px;
+}
+.section-2 h1{
+    margin-left: 38%;
+}
+.line{
+    width: 4%;
+    height: 1%;
+    background-color: teal;
+    margin-left:47% ;
+    margin-top: -10px;
+}
+.section-2-part{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 20px;
+}
+.section-2-part1{
+    width: 50%;
+    height:100%;
+    line-height: 6px;
+}
+.section-2-part1 h3{
+    color: #0984e3;
+}
+.section-2-part1 p{
+    line-height:19px ;
+}
+.section-2 button{
+    width:20%;
+    height:15%;
+    border-radius: 200px;
+    padding-left: 5px;
+    background-color:linear-gradient (to right,teal,#0984e3);
+    color: white;
+}
+.section-2-part2{
+    width: 45%;
+    height:100%;
+   background-image: url(images/about_03.jpg);
+   background-size:100% 100%;
+}
+.section-3{
+    width:100%;
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+.section-3-part{
+    width:20%;
+    height: 200px;
+    background-color: thistle;
+    margin-top: 20px;    
+    background-color:  #0984e3;
+    margin-left: 4%;
+}
+.img3{
+    width:100%;
+    height:80%;
+}
+.section-3 h4{
+    margin:0.1px;
+}
+.section4{
+    width:100%;
+    height: 580px;
+    background-image: url(images/service-bg.png);
+    display: flex;
+    flex-direction: row;
+    background-size:100% 100%;
+}
+.section-4-part1{
+    width:72%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    line-height: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.section-4-div{
+     width:26%;
+     height:44%;
+     display: flex;
+     flex-direction: column;
+    color: white;
+    margin: auto;
+}
+.section4-img{
+    width:30%;
+    height: 30%;
+    margin-left:30% ;
+    margin-top: 9%;
+}
+.section-4-div h3{
+    margin-left: 9%;
+}
+.form{
+    width: 25%;
+    height: 90%;
+    background-color: white;
+    margin: auto;
+}
+.section5{
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+}
+.section5 h1{
+    margin-left: 38%;
+}
+.section5pic{
+    width: 100%;
+    height: 790px;
+    display: flex;
+    margin-top: 35px;
+    flex-direction: row;
+}
+.section5-part{
+    width: 25%;
+    height: 555px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    color: grey;
+}
+.doctor{
+    width:100%;
+    height: 70%;
+}
+.section5-part button{
+    width:50%;
+    height: 40px;
+   background-color: teal;
+   border: 1px solid teal;
+   color: white;
+   margin-left: 20%;
+   margin-top: -9px;
+}
+.seection5-part button h3{
+    padding-bottom: 15px;
+}
+.fab{
+    padding:8px;
+    background-color: teal;
+    color: white;
+    margin-top: -1px;
+}
+.section6{
+    width: 100%;
+    height: 600px;
+    background-image: url(images/price-bg.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.section6-part{
+    width: 27%;
+    height: 80%;
+    background-color: white;
+    margin-top: 5%;
+    line-height: 12px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.section6-part h4{
+    color: grey;
+}
+.section6 .section6-part .yes{
+        width: 80%;
+        height: 50px;
+        background-color: yellow;
+        margin-left: 9%;
+}
+.section6 .section6-part .yes .yes2{
+    width: 20%;
+    height: 90%;
+    border-right: 1px solid grey;
+}
+.section6 .section6-part .yes .yes2 i{
+    width: 100%;
+    height: 100%;
+    font-size: 45px;
+    color: grey;
+}
